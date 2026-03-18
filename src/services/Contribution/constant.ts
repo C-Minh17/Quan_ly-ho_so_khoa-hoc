@@ -1,0 +1,51 @@
+export const MOCK_CONTRIBUTIONS: MContribution.IRecord[] = [
+  {
+    pubId: "PUB-001",
+    userId: "USR-001",
+    authorOrder: 1,
+    role: "Tác giả chính",
+    affiliationAtPub: "Trường Đại học Bách Khoa Hà Nội",
+  },
+  {
+    pubId: "PUB-001",
+    userId: "USR-002",
+    authorOrder: 2,
+    role: "Đồng tác giả",
+    affiliationAtPub: "Trường Đại học Khoa học Tự nhiên – ĐHQGHN",
+  },
+  {
+    pubId: "PUB-002",
+    userId: "USR-001",
+    authorOrder: 1,
+    role: "Tác giả chính",
+    affiliationAtPub: "Trường Đại học Bách Khoa Hà Nội",
+  },
+  {
+    pubId: "PUB-003",
+    userId: "USR-002",
+    authorOrder: 1,
+    role: "Tác giả chính",
+    affiliationAtPub: "Trường Đại học Khoa học Tự nhiên – ĐHQGHN",
+  },
+  {
+    pubId: "PUB-003",
+    userId: "USR-003",
+    authorOrder: 2,
+    role: "Đồng tác giả",
+    affiliationAtPub: "Viện Công nghệ Thông tin – VAST",
+  },
+  {
+    pubId: "PUB-005",
+    userId: "USR-002",
+    authorOrder: 1,
+    role: "Tác giả chính",
+    affiliationAtPub: "Trường Đại học Khoa học Tự nhiên – ĐHQGHN",
+  },
+  {
+    pubId: "PUB-005",
+    userId: "USR-003",
+    authorOrder: 3,
+    role: "Đồng tác giả",
+    affiliationAtPub: "Viện Công nghệ Thông tin – VAST",
+  },
+];
