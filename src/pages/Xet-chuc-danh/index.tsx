@@ -297,7 +297,7 @@ const XetChucDanh = () => {
     }
 
     return (
-      <Card title="Workspace Lưu trữ Hồ sơ" bordered={false} className="shadow-sm">
+      <Card title="Workspace Lưu trữ Hồ sơ" >
         <Steps
           current={dossierState === 'saved' ? 3 : 2}
           items={[

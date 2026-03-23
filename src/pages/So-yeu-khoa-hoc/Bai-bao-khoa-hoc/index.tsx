@@ -1,4 +1,5 @@
 import StatisticsCard from '@/components/StatisticsCard';
+import ChucDanhProgress from '@/components/ChucDanhProgress';
 import { MOCK_PUBLICATIONS } from '@/services/Publication/constant';
 import {
   BookOutlined,
@@ -222,6 +223,7 @@ const BaiBaoKhoaHoc = () => {
 
   return (
     <Card variant='borderless' styles={{ body: { padding: 24 } }}>
+      <ChucDanhProgress />
       <StatisticsCard
         title='Thống kê Ấn phẩm khoa học'
         data={statsData}

@@ -1,4 +1,5 @@
 import StatisticsCard from '@/components/StatisticsCard';
+import ChucDanhProgress from '@/components/ChucDanhProgress';
 import { MOCK_POSITION_HISTORY } from '@/services/PositionHistory/constant';
 import {
   ApartmentOutlined,
@@ -141,6 +142,7 @@ const CongTac = () => {
 
   return (
     <Card variant='borderless' styles={{ body: { padding: 24 } }}>
+      <ChucDanhProgress />
       <StatisticsCard
         title='Thống kê Công tác'
         data={statsData}

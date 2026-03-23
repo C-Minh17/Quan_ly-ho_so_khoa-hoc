@@ -1,4 +1,5 @@
 import StatisticsCard from '@/components/StatisticsCard';
+import ChucDanhProgress from '@/components/ChucDanhProgress';
 import { MOCK_AWARDS } from '@/services/Award/constant';
 import {
   SafetyCertificateOutlined,
@@ -108,6 +109,7 @@ const GiaiThuong = () => {
 
   return (
     <Card variant='borderless' styles={{ body: { padding: 24 } }}>
+      <ChucDanhProgress />
       <StatisticsCard
         title='Thống kê Giải thưởng'
         data={statsData}
