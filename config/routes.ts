@@ -99,7 +99,7 @@ export default [
 	{
 		path: '/quan-ly-hoc-van',
 		name: 'Quản lý học vấn',
-		icon: 'UserOutlined',
+		icon: 'BookOutlined',
 		routes: [
 			{
 				path: '/quan-ly-hoc-van/bang-cap',
@@ -116,7 +116,7 @@ export default [
 	{
 		path: '/So-yeu-khoa-hoc',
 		name: 'Sơ yếu khoa học',
-		icon: 'UserOutlined',
+		icon: 'ExperimentOutlined',
 		routes: [
 			{
 				path: '/So-yeu-khoa-hoc/bai-bao-khoa-hoc',
@@ -134,19 +134,25 @@ export default [
 		path: '/giang-day',
 		name: 'Giảng dạy',
 		component: './Giang-day',
-		icon: 'UserOutlined',
+		icon: 'ReadOutlined',
 	},
 	{
 		path: '/huong-dan-ncs-ths',
 		name: 'Hướng dẫn NCS&ThS',
 		component: './Huong-dan-NCS&ThS',
-		icon: 'UserOutlined',
+		icon: 'TeamOutlined',
 	},
 	{
 		path: '/giai-thuong',
 		name: 'Giải thưởng',
 		component: './Giai-thuong',
-		icon: 'UserOutlined',
+		icon: 'TrophyOutlined',
+	},
+	{
+		path: '/xet-chuc-danh',
+		name: 'Xét chức danh',
+		component: './Xet-chuc-danh',
+		icon: 'TrophyOutlined',
 	},
 
 ];
