@@ -1,7 +1,6 @@
 import { unitName } from '@/services/base/constant';
 import { useIntl } from '@umijs/max';
 import { Card } from 'antd';
-import '../../TrangChu/components/style.less';
 
 const AboutPage = () => {
 	const intl = useIntl();

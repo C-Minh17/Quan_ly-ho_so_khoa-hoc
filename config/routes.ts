@@ -154,5 +154,22 @@ export default [
 		component: './Xet-chuc-danh',
 		icon: 'TrophyOutlined',
 	},
-
+	{
+		path: '/quan-ly-nguoi-dung',
+		name: 'Quản lý người dùng',
+		component: './Quan-ly-nguoi-dung',
+		icon: 'UserOutlined',
+	},
+	{
+		path: '/kiem-duyet',
+		name: 'Kiểm duyệt',
+		component: './Kiem-duyet',
+		icon: 'UserOutlined',
+	},
+	{
+		path: '/thong-ke-bao-cao',
+		name: 'Thống kê báo cáo',
+		component: './Thong-ke-bao-cao',
+		icon: 'UserOutlined',
+	},
 ];

@@ -1,0 +1,121 @@
+export const MOCK_SCIENTIFIC_WORKS: MKiemDuyet.IScientificWork[] = [
+  {
+    id: '1',
+    type: 'ARTICLE',
+    title: 'Machine Learning Approaches in Climate Modeling',
+    authors: ['Nguyen Van A', 'Tran Thi B'],
+    submissionDate: '2026-03-20',
+    status: 'PENDING',
+    userName: 'Nguyễn Văn A',
+    userId: 'CB001',
+    affiliation: 'Khoa Công nghệ thông tin',
+    tags: ['AI', 'Environmental Science'],
+    evidenceFiles: ['https://example.com/paper.pdf'],
+    details: {
+      journalName: 'Scientific Reports',
+      issn: '2045-2322',
+      vol: '14',
+      issue: '1',
+      pages: '123-145',
+      doi: '10.1038/s41598-024-56789-x',
+      scopusId: '85123456789',
+      quartile: 'Q1',
+    } as MKiemDuyet.ArticleDetails,
+    reviewHistory: [
+      { date: '2026-03-20', action: 'PENDING', actor: 'Hệ thống', comment: 'Dữ liệu mới tải lên' },
+    ],
+    duplicateCheckResult: 'Không tìm thấy trùng lặp'
+  },
+  {
+    id: '2',
+    type: 'BOOK',
+    title: 'Phát triển bền vững trong kỷ nguyên số',
+    authors: ['Le Van C'],
+    submissionDate: '2026-03-15',
+    status: 'APPROVED',
+    userName: 'Lê Văn C',
+    userId: 'CB002',
+    affiliation: 'Khoa Kinh tế',
+    tags: ['Sustainable Development', 'Digital Economy'],
+    evidenceFiles: ['https://example.com/book-cover.jpg'],
+    score: 5.0,
+    details: {
+      publisher: 'NXB Đại học Quốc gia',
+      isbn: '978-604-99-1234-5',
+      edition: 'Tái bản lần 1'
+    } as MKiemDuyet.BookDetails,
+    reviewHistory: [
+      { date: '2026-03-15', action: 'PENDING', actor: 'Hệ thống', comment: 'Dữ liệu mới tải lên' },
+      { date: '2026-03-17', action: 'APPROVED', actor: 'Quản trị viên 1', comment: 'Thông tin đầy đủ, hợp lệ' },
+    ],
+    duplicateCheckResult: 'Trùng lặp 10% với bản thảo cũ'
+  },
+  {
+    id: '3',
+    type: 'PROJECT',
+    title: 'Nghiên cứu giải pháp tiết kiệm năng lượng cho tòa nhà thông minh',
+    authors: ['Pham Thi D', 'Hoang Van E'],
+    submissionDate: '2026-03-10',
+    status: 'SUPPLEMENT_REQUESTED',
+    userName: 'Phạm Thị D',
+    userId: 'CB003',
+    affiliation: 'Khoa Điện - Điện tử',
+    tags: ['Smart City', 'Energy Efficiency'],
+    evidenceFiles: ['https://example.com/project-report.pdf'],
+    details: {
+      projectName: 'SmartEnergy-2026',
+      projectCode: 'ĐT.2026.05',
+      fundingAgency: 'Quỹ Đổi mới Công nghệ',
+      role: 'Chủ trì',
+      duration: '24 tháng'
+    } as MKiemDuyet.ProjectDetails,
+    reviewHistory: [
+      { date: '2026-03-10', action: 'PENDING', actor: 'Hệ thống', comment: 'Dữ liệu mới tải lên' },
+      { date: '2026-03-12', action: 'SUPPLEMENT_REQUESTED', actor: 'Quản trị viên 2', comment: 'Thiếu minh chứng báo cáo nghiệm thu' },
+    ],
+  },
+  // {
+  //   id: '4',
+  //   type: 'PATENT',
+  //   title: 'Quy trình sản xuất vật liệu nano từ phế thải nông nghiệp',
+  //   authors: ['Nguyen Thi F'],
+  //   submissionDate: '2026-03-05',
+  //   status: 'FINAL_REVIEW',
+  //   userName: 'Nguyễn Thị F',
+  //   userId: 'CB004',
+  //   affiliation: 'Viện Khoa học vật liệu',
+  //   tags: ['Nanotechnology', 'Recycling'],
+  //   evidenceFiles: ['https://example.com/patent-doc.pdf'],
+  //   details: {
+  //     patentNumber: 'VN 1-2026-00123',
+  //     country: 'Việt Nam',
+  //     applicationDate: '2025-01-20'
+  //   } as MKiemDuyet.PatentDetails,
+  //   reviewHistory: [
+  //     { date: '2026-03-05', action: 'PENDING', actor: 'Hệ thống', comment: 'Dữ liệu mới tải lên' },
+  //     { date: '2026-03-08', action: 'PENDING', actor: 'Quản trị viên 1', comment: 'Chuyển sang cấp trên duyệt lần cuối' },
+  //   ],
+  // },
+  {
+    id: '5',
+    type: 'CONFERENCE',
+    title: 'Blockchain in Scientific Data Management: Challenges and Opportunities',
+    authors: ['Tran Van G'],
+    submissionDate: '2026-03-25',
+    status: 'PENDING',
+    userName: 'Trần Văn G',
+    userId: 'CB005',
+    affiliation: 'Khoa An toàn thông tin',
+    tags: ['Blockchain', 'Data Management'],
+    evidenceFiles: ['https://example.com/conference-paper.pdf'],
+    details: {
+      conferenceName: 'IEEE International Conference on Big Data 2026',
+      location: 'Melbourne, Australia',
+      organizer: 'IEEE Computer Society',
+      date: '2026-05-12'
+    } as MKiemDuyet.ConferenceDetails,
+    reviewHistory: [
+      { date: '2026-03-25', action: 'PENDING', actor: 'Hệ thống', comment: 'Dữ liệu mới tải lên' },
+    ],
+  },
+];

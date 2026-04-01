@@ -8,7 +8,7 @@ const HeaderContentPage = () => {
 
 	return (
 		<div className='header-content'>
-			<img src='/logo.png' alt='logo' onClick={() => history.push('/')} />
+			<img src='/favicon.ico' alt='logo' onClick={() => history.push('/')} />
 			<div>
 				{/* <div className='text-error'>{intl.formatMessage({ id: 'global.rightcontent.header.title' })}</div> */}
 				<Link to='/'>{intl.formatMessage({ id: AppModules[currentRole].title }).toLocaleUpperCase()}</Link>
