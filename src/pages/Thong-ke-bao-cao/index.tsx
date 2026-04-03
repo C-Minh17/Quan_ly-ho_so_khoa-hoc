@@ -207,23 +207,23 @@ const ThongKeBaoCao = () => {
                 </Row>
               )
             },
-            {
-              key: 'SUMMARY',
-              label: 'Tóm tắt hợp tác',
-              children: (
-                <Row gutter={[24, 24]}>
-                  <Col span={24}>
-                    <Card bordered={false} style={{ textAlign: 'center', padding: '40px 0' }}>
-                      <DatabaseOutlined style={{ fontSize: '48px', color: '#bfbfbf', marginBottom: '16px' }} />
-                      <Title level={4}>Dữ liệu hợp tác tác giả</Title>
-                      <Text type="secondary">
-                        Tính năng này đang được cập nhật để hiển thị dưới dạng bảng ma trận chi tiết.
-                      </Text>
-                    </Card>
-                  </Col>
-                </Row>
-              )
-            }
+            // {
+            //   key: 'SUMMARY',
+            //   label: 'Tóm tắt hợp tác',
+            //   children: (
+            //     <Row gutter={[24, 24]}>
+            //       <Col span={24}>
+            //         <Card bordered={false} style={{ textAlign: 'center', padding: '40px 0' }}>
+            //           <DatabaseOutlined style={{ fontSize: '48px', color: '#bfbfbf', marginBottom: '16px' }} />
+            //           <Title level={4}>Dữ liệu hợp tác tác giả</Title>
+            //           <Text type="secondary">
+            //             Tính năng này đang được cập nhật để hiển thị dưới dạng bảng ma trận chi tiết.
+            //           </Text>
+            //         </Card>
+            //       </Col>
+            //     </Row>
+            //   )
+            // }
           ]}
         />
       </Card>

@@ -26,6 +26,7 @@ export default [
 		name: 'Dashboard',
 		component: './TrangChu',
 		icon: 'HomeOutlined',
+
 	},
 	{
 		path: '/gioi-thieu',
@@ -152,7 +153,7 @@ export default [
 		path: '/xet-chuc-danh',
 		name: 'Xét chức danh',
 		component: './Xet-chuc-danh',
-		icon: 'TrophyOutlined',
+		icon: 'AuditOutlined',
 	},
 	{
 		path: '/quan-ly-nguoi-dung',
@@ -164,12 +165,12 @@ export default [
 		path: '/kiem-duyet',
 		name: 'Kiểm duyệt',
 		component: './Kiem-duyet',
-		icon: 'UserOutlined',
+		icon: 'CheckCircleOutlined',
 	},
 	{
 		path: '/thong-ke-bao-cao',
 		name: 'Thống kê báo cáo',
 		component: './Thong-ke-bao-cao',
-		icon: 'UserOutlined',
+		icon: 'BarChartOutlined',
 	},
 ];

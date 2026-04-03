@@ -211,7 +211,7 @@ const KiemDuyetPage = () => {
   const items = [
     { key: 'ALL', label: <Badge count={MOCK_SCIENTIFIC_WORKS.length} offset={[12, -2]}>Tất cả</Badge> },
     { key: 'PENDING', label: <Badge count={MOCK_SCIENTIFIC_WORKS.filter(i => i.status === 'PENDING').length} offset={[12, -2]} status="processing">Chờ duyệt</Badge> },
-    { key: 'FINAL_REVIEW', label: <Badge count={MOCK_SCIENTIFIC_WORKS.filter(i => i.status === 'FINAL_REVIEW').length} offset={[12, -2]} status="warning">Final Review</Badge> },
+    // { key: 'FINAL_REVIEW', label: <Badge count={MOCK_SCIENTIFIC_WORKS.filter(i => i.status === 'FINAL_REVIEW').length} offset={[12, -2]} status="warning">Final Review</Badge> },
     { key: 'SUPPLEMENT_REQUESTED', label: 'Bổ sung' },
     { key: 'APPROVED', label: 'Đã duyệt' },
     { key: 'REJECTED', label: 'Từ chối' },
