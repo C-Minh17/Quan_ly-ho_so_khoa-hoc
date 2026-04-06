@@ -10,6 +10,7 @@ export const MOCK_SUPERVISION: MSupervision.IRecord[] = [
     startDate: "2021-09-01",
     status: "Đang làm",
     decisionFileId: "FILE-008",
+    role: "Hướng dẫn chính",
   },
   {
     supId: "SUP-002",
@@ -22,6 +23,7 @@ export const MOCK_SUPERVISION: MSupervision.IRecord[] = [
     defenseDate: "2023-11-20",
     status: "Đã bảo vệ",
     decisionFileId: "FILE-008",
+    role: "Đồng hướng dẫn",
   },
   {
     supId: "SUP-003",
@@ -33,6 +35,7 @@ export const MOCK_SUPERVISION: MSupervision.IRecord[] = [
     startDate: "2022-09-01",
     defenseDate: "2023-06-15",
     status: "Đã bảo vệ",
+    role: "Hướng dẫn chính",
   },
   {
     supId: "SUP-004",
@@ -44,6 +47,7 @@ export const MOCK_SUPERVISION: MSupervision.IRecord[] = [
       "Hybrid Deep Learning Algorithms for Supply Chain Optimization",
     startDate: "2022-09-01",
     status: "Đang làm",
+    role: "Đồng hướng dẫn",
   },
   {
     supId: "SUP-005",
@@ -54,6 +58,7 @@ export const MOCK_SUPERVISION: MSupervision.IRecord[] = [
     thesisTitle: "Giải thuật học tăng cường cho bài toán sắp xếp kho hàng",
     startDate: "2023-09-01",
     status: "Đang làm",
+    role: "Hướng dẫn chính",
   },
   {
     supId: "SUP-006",
@@ -66,5 +71,6 @@ export const MOCK_SUPERVISION: MSupervision.IRecord[] = [
     startDate: "2019-01-01",
     defenseDate: "2022-05-10",
     status: "Đã bảo vệ",
+    role: "Đồng hướng dẫn",
   },
 ];

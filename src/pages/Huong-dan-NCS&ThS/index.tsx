@@ -56,6 +56,14 @@ const Supervision = () => {
       },
     },
     {
+      title: 'Vai trò',
+      dataIndex: 'role',
+      width: 170,
+      align: 'center',
+      filters: ['Hướng dẫn chính', 'Đồng hướng dẫn'].map(r => ({ text: r, value: r })),
+      onFilter: (value, record) => record.role === value,
+    },
+    {
       title: 'Cơ sở đào tạo',
       dataIndex: 'institution',
       width: 250,

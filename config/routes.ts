@@ -98,6 +98,12 @@ export default [
 		icon: 'UserOutlined',
 	},
 	{
+		path: '/search',
+		name: 'Tìm kiếm',
+		component: './Search',
+		icon: 'SearchOutlined',
+	},
+	{
 		path: '/quan-ly-hoc-van',
 		name: 'Quản lý học vấn',
 		icon: 'BookOutlined',
